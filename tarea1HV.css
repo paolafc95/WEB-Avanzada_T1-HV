@@ -1,0 +1,124 @@
+.contact{
+padding: 20px;
+padding-left: 10px;
+margin: 0px;
+background-color: grey;
+color:white;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 18px;
+display: flex;
+justify-content: space-around;
+}
+
+body{
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: whitesmoke;
+    color: lightslategrey;
+}
+hr{
+    border-color: grey;
+}
+td{
+    padding-right: 40px;
+    border-left: solid 2px;
+    border-color: grey;
+    padding-left: 10px;
+}
+
+.foto-nombre{
+    float: left;
+    padding: 40px;
+    width: 97%;
+    align-items: center;
+    border-top: 2rem;
+}
+
+#foto{
+    position: static;
+    width: 180px;
+    height: 180px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    float: left;
+}
+
+#nombre{
+    width: 55%;
+    padding: 0px, 0px, 0px, 20px;
+    padding-block-start: inherit;
+    float: right;
+    color: lightblue;
+    font-size: 18;
+    align-items: center;
+}
+
+.info{
+    padding: 20px;
+    display: block;
+    clear: both;
+}
+#exp-edu{    
+    float: left;
+    width: 50%;
+    padding-bottom: 25px;
+}
+#info-add{
+    clear: both;
+}
+#titulo{
+    color: steelblue;
+}
+#hab{
+    display: block;
+}
+.container{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5px;
+    float: right  ;
+    align-items: center;
+}
+
+.circulo{
+    width: 15px;
+    height: 15px;
+    -moz-border-radius:  50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: darkslateblue;
+
+}
+
+.modal {
+    display: none;
+    position: fixed; 
+    padding-top: 50px;
+    left: 0; 
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: relative; 
+    background-color: lightslategray;
+    padding: 20px; 
+    margin: auto; 
+    width: 75%;  
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  .close-btn {
+    float: right; 
+    color: lightgray; 
+    font-size: 24px;  
+    font-weight: bold;
+  }
+  .close-btn:hover {
+    color: darkgray;
+  }
